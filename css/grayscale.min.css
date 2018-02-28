@@ -134,7 +134,11 @@ a:hover {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/chicagoSkyline.jpg) bottom center no-repeat #000;
+    font-weight:bold;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../img/chicagoSkyline.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

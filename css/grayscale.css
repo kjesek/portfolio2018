@@ -119,15 +119,17 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
   padding: 100px 0;
   text-align: center;
-  color: white;
-  font-weight: bold;
-  text-shadow: 3px 3px white;
-  opacity: .88;
-  z-index: -1; 
-  background: url(../img/chicagoSkyline.jpg) no-repeat bottom center scroll;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 300;            /* - reduce font weight for larger text */
+  letter-spacing: 1px;    /* - increase space between letters */
+  word-spacing: 4px;        /* - increase space between words */
+  background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../img/chicagoSkyline.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

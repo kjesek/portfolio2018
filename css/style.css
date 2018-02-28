@@ -59,10 +59,14 @@ h3 {
 #fullName {
   font-size: 200%;
   line-height: 290%;
+  width: 100%;
   padding-top: 20px;
-  padding-bottom: 5px;
+  margin-top: -20%;
+  margin-left: -35%;
   font-family: 'Overpass', sans-serif;
-  color: white; 
+  color: white;
+  float: left;
+  position: relative;
 }
 
 li {

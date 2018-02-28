@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio Grayscale Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" id="btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse"
+                    aria-expanded="false" aria-controls="navbar">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light">Krista Jesek</span>
+                </a>
+            </div>
+
+            <div class="collapse nav navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-right" id="navlist">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Web Developer</h1>
+                        <p class="intro-text">
+                            <h3>HTML5, CSS, Javascript, JQuery, SQL, MAMP, React, MongoDB, Sequelize, Express, Node.js </h3>
+                            <a href="#about" class="btn btn-circle page-scroll">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 aboutSection">
+                <h2 class="about-header" id="aboutMe">About Me</h2>
+                <hr>
+                <img class="profileImage img-responsive" id="profileImage" src="images/KristaJesek.jpg" alt="Krista Jesek Profile Image"
+                    width="150" height="220" />
+                <p>a couple different paragraphs</p>
+                <p>a few more paragraphs to get to the end of the line</p>
+                <p>add more here later</p>
+                <!-- add some infographics or animated charts -->
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="content-section text-center">
+        <div class="row">
+            <div class="aboutSection portfolio-section">
+                <h2>Download Portfolio</h2>
+                <p>You can download my Portfolio for free on the preview page at Start Bootstrap.</p>
+                <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">
+                    Visit Download Page
+                </a>
+                <div class="row">
+                    <section class="col-sm-6">
+                        <h3>League Sub Finder</h3>
+                        <p>
+                            <a href="https://league-sub-finder.herokuapp.com/" target="_blank" alt="heroku link">Heroku Link</p>
+                        </a>
+                    </section>
+                    <section class="col-sm-6">
+                        <h3>Random Recipe Generator</h3>
+                        <p>
+                            <a href="https://kjesek.github.io/whatsForDinner-App/" target="_blank" alt="github link">Github Link</p>
+                        </a>
+                    </section>
+                </div>
+                <div class="row">
+                    <section class="col-sm-6">
+                        <h3>Crystal Collector</h3>
+                        <p>
+                            <a href="https://kjesek.github.io/week-4-game/" target="_blank" alt="github link">Github Link</p>
+                        </a>
+                    </section>
+                    <section class="col-sm-6">
+                        <h3>Hangman</h3>
+                        <p>
+                            <a href="https://kjesek.github.io/hangmanProject/" target="_blank" alt="github link">Github Link</p>
+                        </a>
+                    </section>
+                </div>
+                <div class="row">
+                    <section class="col-sm-6">
+                        <h3>Basic Portfolio w/o Bootstrap</h3>
+                        <p>
+                            <a href=" https://kjesek.github.io/Basic-Portfolio/" target="_blank" alt="github link">Github Link</p>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="aboutSection">
+                    <form class="contact-form" action="mailto:krista.adelle@gmail.com" method="post" enctype="text/plain">
+                        <h1 class="contact-form-header">Contact Form</h1>
+                        <hr class="contact-hr" />
+                        <div class="form-group">
+                            <label class="label-name" for="name">Name:</label>
+                            <input type="text" id="name_input" name="user_name" />
+                        </div>
+                        <div class="form-group">
+                            <label class="label-mail" for="mail">E-mail:</label>
+                            <input type="email" id="mail_input" name="user_mail" />
+                        </div>
+                        <div class="form-group">
+                            <label class="label-msg" for="msg">Message:</label>
+                            <br />
+                            <textarea id="msg" class="textbox" name="user_message_input"></textarea>
+                        </div>
+                        <button class="submit-btn" value="Send">Submit</button>
+                    </form>
+                </div>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                            <i class="fa fa-twitter fa-fw"></i>
+                            <span class="network-name">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg">
+                            <i class="fa fa-github fa-fw"></i>
+                            <span class="network-name">Github</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                            <i class="fa fa-google-plus fa-fw"></i>
+                            <span class="network-name">Google+</span>
+                        </a>
+                    </li>
+                    <li>
+                            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                                <i class="fa fa-google-plus fa-fw"></i>
+                                <span class="network-name">Stack Overflow</span>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2016</p>
+        </div>
+    </footer> -->
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

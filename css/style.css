@@ -1,0 +1,176 @@
+body {
+  margin-bottom: 150px;
+  font-family: 'Overpass', sans-serif;
+  background-image: url("../images/gplaypattern/newPattern") no-repeat bottom center;
+  /* background-repeat: no-repeat; */
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Overpass', sans-serif;
+  
+}
+
+h1 {
+  font-family: 'Parisienne', cursive;
+  font-weight: bold;
+  font-size: 1000%;
+  text-align: center;
+  vertical-align: center;
+}
+
+h3 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 150%;
+  text-align: center;
+}
+
+#fullName {
+  height: 100%;
+  font-size: 150%;
+  line-height: 290%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 100%;
+  margin-left: 10%;
+  font-family: 'Overpass', sans-serif;
+  color: lightgray;
+  background: #955251;
+}
+
+li {
+  font-size: 135%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: 'Overpass', sans-serif;
+}
+
+.navbar-nav>li>a:hover {
+  color: #955251;
+}
+
+.aboutSection {
+  border-radius: 10%;
+  background-color: #eee;
+  color: slategray;
+}
+
+#aboutMe {
+  padding-left: 5%;
+  font-family: 'Overpass', sans-serif;
+  color: #955251;
+}
+
+.connect-with-me-header {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Overpass', sans-serif;
+  color: #955251;
+}
+
+.connect-with-me-content {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #666;
+  font-family: 'Overpass', sans-serif;
+}
+
+.contact-form {
+  width: 95%;
+  background-color: #fff;
+  font-family: 'Overpass', sans-serif;
+  color: #955251;
+  padding: 1%;
+  border-radius: 10%;
+}
+
+#portfolio {
+  width: 60%; 
+  margin: 0 auto; 
+}
+
+.contact-form-header,
+.port-header {
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
+  font-size: 350%;
+  color: #955251;
+  margin: 5%;
+  width: 90%;
+}
+
+.main-box {
+  border-radius: 10%;
+}
+
+.asideBox {}
+
+#port {
+  font-family: 'Overpass', sans-serif;
+  color: #955251;
+  margin-left: 15%;
+  font-size: 300%;
+}
+
+#msg {
+  height: 200px;
+  border-color: slategray;
+  font-family: 'Overpass', sans-serif;
+  width: 90%;
+}
+
+.label-name,
+.label-msg,
+.label-mail {
+  font-size: 17px;
+  color: slategray;
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: lightgray;
+  background-color: #955251;
+  border: 0;
+  border-radius: 5%;
+}
+
+.links {
+  color: #955251;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  color: lightgray;
+  background: rgb(74, 77, 77);
+  border-top: 10px solid #955251;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 80px;
+  font-size: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #955251;
+  }
+}

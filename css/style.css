@@ -5,7 +5,10 @@ body {
   /* background-repeat: no-repeat; */
 
 }
-
+#navList {
+  color: cornflowerblue;
+  
+}
 html {
   position: relative;
   min-height: 100%;
@@ -13,12 +16,38 @@ html {
   
 }
 
+
+#title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 300;            /* - reduce font weight for larger text */
+  letter-spacing: 1px;    /* - increase space between letters */
+  word-spacing: 4px;        /* - increase space between words */
+}
+
+#skills {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 200%;
+  letter-spacing: 1px;    /* - increase space between letters */
+  word-spacing: 4px;        /* - increase space between words */
+}
+
+#title {
+  font-size: 1000%;
+}
+
 h1 {
   font-family: 'Parisienne', cursive;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1000%;
   text-align: center;
   vertical-align: center;
+  
 }
 
 h3 {
@@ -28,16 +57,12 @@ h3 {
 }
 
 #fullName {
-  height: 100%;
-  font-size: 150%;
+  font-size: 200%;
   line-height: 290%;
   padding-top: 20px;
   padding-bottom: 5px;
-  width: 100%;
-  margin-left: 10%;
   font-family: 'Overpass', sans-serif;
-  color: lightgray;
-  background: #955251;
+  color: white; 
 }
 
 li {

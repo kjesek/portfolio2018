@@ -123,7 +123,10 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  opacity: .9; 
+  font-weight: bold;
+  text-shadow: 3px 3px white;
+  opacity: .88;
+  z-index: -1; 
   background: url(../img/chicagoSkyline.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;

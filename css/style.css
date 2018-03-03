@@ -1,7 +1,7 @@
 body {
   margin-bottom: 150px;
   font-family: 'Overpass', sans-serif;
-  background-image: url("../images/gplaypattern/newPattern") no-repeat bottom center;
+  background-image: url("../images/grunge_wall/grunge_wall.png");
   /* background-repeat: no-repeat; */
 
 }
@@ -9,30 +9,69 @@ body {
   color: cornflowerblue;
   
 }
+
+#aboutImage {
+  width: 70%;
+  height:auto;
+  border-radius: 50%;
+}
+
+#gitHub {
+  width: 145%;
+  height: auto;
+  border-radius: 15%;
+}
+#portDiv {
+  background-image: url("../images/gray_sand/gray_sand.png");
+  background-size: cover;
+  background-position: center;
+
+}
 html {
   position: relative;
   min-height: 100%;
   font-family: 'Overpass', sans-serif;
   
 }
+#portTitle {
+  font-size: 700%;
+  font-weight: 200;
+  font-family:  'Parisienne', cursive;
+
+}
+
+#contactTitle {
+  font-family: 'Parisienne', cursive;
+  font-weight: bolder;
+  font-size: 500%;
+}
+
+.image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 
 
 #title {
-  margin-top: 0px;
-  margin-bottom: 20px;
   color: #fff;
-  font-size: 240%;
   font-weight: 300;            /* - reduce font weight for larger text */
   letter-spacing: 1px;    /* - increase space between letters */
-  word-spacing: 4px;        /* - increase space between words */
+  word-spacing: 4px; 
+  font-family: 'Parisienne', cursive;
+  font-weight: bolder;
+  font-size: 1000%;       /* - increase space between words */
 }
 
 #skills {
   font-family: 'Fira Sans Condensed', sans-serif;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 20px;
   color: #fff;
-  font-size: 200%;
+  font-size: 110%;
   letter-spacing: 1px;    /* - increase space between letters */
   word-spacing: 4px;        /* - increase space between words */
 }
@@ -42,9 +81,7 @@ html {
 }
 
 h1 {
-  font-family: 'Parisienne', cursive;
-  font-weight: bolder;
-  font-size: 1000%;
+
   text-align: center;
   vertical-align: center;
   
@@ -82,13 +119,12 @@ li {
 
 .aboutSection {
   border-radius: 10%;
-  background-color: #eee;
   color: slategray;
 }
 
 #aboutMe {
-  padding-left: 5%;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Parisienne', cursive;
+  font-size: 700%;  
   color: #955251;
 }
 
@@ -123,11 +159,6 @@ li {
   border-radius: 10%;
 }
 
-#portfolio {
-  width: 60%; 
-  margin: 0 auto; 
-}
-
 .contact-form-header,
 .port-header {
   font-family: 'Overpass', sans-serif;
@@ -141,8 +172,6 @@ li {
 .main-box {
   border-radius: 10%;
 }
-
-.asideBox {}
 
 #port {
   font-family: 'Overpass', sans-serif;

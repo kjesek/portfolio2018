@@ -31,3 +31,26 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $(this).closest('.collapse').collapse('toggle');
 });
+$(function () { // wait for document ready
+    // build scene
+    var scene = new ScrollMagic.Scene({
+            triggerElement: "#trigger1",
+            duration: 300
+        })
+        .setPin("#pin1")
+        .addIndicators({
+            name: "1 (duration: 300)"
+        }) // add indicators (requires plugin)
+        .addTo(controller);
+});
+$(function () { // wait for document ready
+    // build scene
+    var scene = new ScrollMagic.Scene({
+            triggerElement: "#pin2"
+        })
+        .setPin("#pin2")
+        .addIndicators({
+            name: "2 (duration: 0)"
+        }) // add indicators (requires plugin)
+        .addTo(controller);
+});

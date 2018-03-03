@@ -38,7 +38,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #955251;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -46,7 +46,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #955251;
 }
 .light {
   font-weight: 400;
@@ -241,18 +241,7 @@ a:focus {
   -o-background-size: cover;
 }
 
-@media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
-  }
-  .portfolio-section {
-    padding: 100px 0;
-  }
-  #map {
-    height: 400px;
-    margin-top: 250px;
-  }
-}
+
 .btn {
   /* text-transform: uppercase; */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -264,16 +253,16 @@ a:focus {
 }
 
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #955251;
+  color: #955251;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #955251;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #955251;
 }
 ul.banner-social-buttons {
   margin-top: 0;

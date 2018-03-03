@@ -47,7 +47,7 @@ a {
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #1d9b6c
+    color: #955251;
 }
 
 .light {
@@ -235,9 +235,7 @@ a:hover {
     }
 }
 
-.content-section {
-    padding-top: 100px
-}
+
 
 .portfolio-section {
     width: 100%;
@@ -260,17 +258,17 @@ a:hover {
 }
 
 .btn-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
-    background-color: transparent
+    border: 1px solid #955251;
+    color: #955251;
+    background-color: transparent;
 }
 
 .btn-default:focus,
 .btn-default:hover {
-    border: 1px solid #42DCA3;
+    border: 1px solid #955251;
     outline: 0;
     color: #000;
-    background-color: #42DCA3
+    background-color: #955251;
 }
 
 ul.banner-social-buttons {

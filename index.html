@@ -21,18 +21,26 @@
     <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
-    
+
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
     <link href="css/grayscale.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">         
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" id="btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse"
                     aria-expanded="false" aria-controls="navbar">
@@ -44,8 +52,9 @@
             </div>
 
 
+
             <div class="collapse nav navbar-collapse navbar-right navbar-main-collapse">
-       
+
                 <ul class="nav navbar-nav navbar-right" id="navList">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -67,48 +76,69 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                        <h1 id="title" class="brand-heading">Web Developer</h1>
-                        <p class="intro-text">
-                            <h3 id="skills">HTML5, CSS, Javascript, JQuery, SQL, MAMP, React, MongoDB, Sequelize, Express, Node.js </h3>
-                            <a href="#about" class="btn btn-circle page-scroll">
-                                <i class="fa fa-angle-double-down animated"></i>
-                            </a>
+                    <h1 id="title" class="brand-heading">Web Developer</h1>
+                    <div class="col-md-12">
+                        <div id="img">
+                            <img class="profileImage img-responsive" id="profileImage" src="images/profileImage.jpg" alt="Krista Jesek Profile Image"
+                            />
+                        </div>
+                    </div>
+                    <h3 id="skills">HTML5, CSS, Javascript, JQuery, SQL, MAMP, React, MongoDB, Sequelize, Express, Node.js </h3>
+                    <div class="col-md-12">
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="about" class="container content-section text-center">
+    <section id="about" class="content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 aboutSection">
+            <d class="container-fluid aboutSection">
                 <h2 class="about-header" id="aboutMe">About Me</h2>
                 <hr>
-                <img class="profileImage img-responsive" id="profileImage" src="images/KristaJesek.jpg" alt="Krista Jesek Profile Image"
-                    width="150" height="220" />
-                <p>a couple different paragraphs</p>
-                <p>a few more paragraphs to get to the end of the line</p>
-                <p>add more here later</p>
-                <!-- add some infographics or animated charts -->
+                <div class="col-md-10">
+                    <div class="col-md-4">
+                        <div id="img">
+                            <img class="profileImage img-responsive" id="aboutImage" src="images/profileImage.jpg" alt="Krista Jesek Profile Image"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <p>Web developer able to build a polished web application with full database backend from designing the wireframe
+                            to pushing to production.  Exceptional at working with diverse teams to deploy projects.
+                        </p>
+                        </br>
+                        </br>
+                        <p>Interests: cooking, traveling, trendy coffee shops, photography</p>
+                        <!-- add some infographics or animated charts -->
+                    </div>
+                <div class="col-md-4">
+                        <img id="gitHub" src="images/gitHub.png"/>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="portfolio" class="content-section text-center">
-        <div class="row">
-            <div class="aboutSection portfolio-section">
-                <h2>Download Portfolio</h2>
-                <p>You can download my Portfolio for free on the preview page at Start Bootstrap.</p>
-                <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">
-                    Visit Download Page
-                </a>
+        <div id="portDiv" class="portfolio-section ">
+            <h1 id="portTitle"> Portfolio </h1>
+            <a href="http://startbootstrap.com/template-overviews/grayscale/">
+                Download Resume
+            </a> </br> </br>
+            <a href="http://startbootstrap.com/template-overviews/grayscale/">
+                Download Technical Resume
                 <div class="row">
-                    <section class="col-sm-6">
-                        <h3>League Sub Finder</h3>
-                        <p>
-                            <a href="https://league-sub-finder.herokuapp.com/" target="_blank" alt="heroku link">Heroku Link</p>
-                        </a>
-                    </section>
-                    <section class="col-sm-6">
+                        <section class="col-sm-6 btn portPiece btn-default btn-lg">
+                                <h3>League Sub Finder</h3>
+                                <p>
+                                    <a href="https://league-sub-finder.herokuapp.com/" target="_blank" alt="github link">Heroku Link</p>
+                                </a>
+                            </section>
+           
+                    <section class="col-sm-6 btn btn-default portPiece btn-lg">
                         <h3>Random Recipe Generator</h3>
                         <p>
                             <a href="https://kjesek.github.io/whatsForDinner-App/" target="_blank" alt="github link">Github Link</p>
@@ -116,13 +146,13 @@
                     </section>
                 </div>
                 <div class="row">
-                    <section class="col-sm-6">
+                    <section class="col-sm-6 btn portPiece btn-default btn-lg">
                         <h3>Crystal Collector</h3>
                         <p>
                             <a href="https://kjesek.github.io/week-4-game/" target="_blank" alt="github link">Github Link</p>
                         </a>
                     </section>
-                    <section class="col-sm-6">
+                    <section class="col-sm-6 btn portPiece btn-default btn-lg">
                         <h3>Hangman</h3>
                         <p>
                             <a href="https://kjesek.github.io/hangmanProject/" target="_blank" alt="github link">Github Link</p>
@@ -130,23 +160,23 @@
                     </section>
                 </div>
                 <div class="row">
-                    <section class="col-sm-6">
+                    <section class="col-sm-6 btn  portPiece btn-default btn-lg">
                         <h3>Basic Portfolio w/o Bootstrap</h3>
                         <p>
                             <a href=" https://kjesek.github.io/Basic-Portfolio/" target="_blank" alt="github link">Github Link</p>
                         </a>
                     </section>
                 </div>
-            </div>
+        </div>
         </div>
     </section>
 
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
+    <section class="container-fluid content-section text-center">
+        <div id="contact" class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="aboutSection">
                     <form class="contact-form" action="mailto:krista.adelle@gmail.com" method="post" enctype="text/plain">
-                        <h1 class="contact-form-header">Contact Form</h1>
+                        <h1 id="contactTitle" class="contact-form-header">Contact Form</h1>
                         <hr class="contact-hr" />
                         <div class="form-group">
                             <label class="label-name" for="name">Name:</label>
@@ -161,57 +191,53 @@
                             <br />
                             <textarea id="msg" class="textbox" name="user_message_input"></textarea>
                         </div>
-                        <button class="submit-btn" value="Send">Submit</button>
+                        <button class="submit-btn" type="submit" value="Send">Submit</button>
+                        <ul class="list-inline banner-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                                    <i class="fa fa-twitter fa-fw"></i>
+                                    <span class="network-name">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg">
+                                    <i class="fa fa-github fa-fw"></i>
+                                    <span class="network-name">Github</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                                    <i class="fa fa-google-plus fa-fw"></i>
+                                    <span class="network-name">Google+</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                                    <i class="fa fa-google-plus fa-fw"></i>
+                                    <span class="network-name">Stack Overflow</span>
+                                </a>
+                            </li>
+                        </ul>
                     </form>
                 </div>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                            <i class="fa fa-twitter fa-fw"></i>
-                            <span class="network-name">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg">
-                            <i class="fa fa-github fa-fw"></i>
-                            <span class="network-name">Github</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                            <i class="fa fa-google-plus fa-fw"></i>
-                            <span class="network-name">Google+</span>
-                        </a>
-                    </li>
-                    <li>
-                            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                                <i class="fa fa-google-plus fa-fw"></i>
-                                <span class="network-name">Stack Overflow</span>
-                            </a>
-                        </li>
-                </ul>
             </div>
-        </div>
     </section>
 
-    <!-- Footer -->
     <!-- <footer>
         <div class="container text-center">
             <p>Copyright &copy; Your Website 2016</p>
         </div>
     </footer> -->
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script type="text/javascript" src="js/grayscale.js"></script>
     <script type="text/javascript" src="js/grayscale.min.js"></script>
+    <script type="text/javascript" src="js/grayscale.min.js"></script>
 
+    <script>
+    </script>
 </body>
 
 </html>

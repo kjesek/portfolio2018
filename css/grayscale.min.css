@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-image: url("../images/gplaypattern/newPattern.jpg") no-repeat bottom center;
+    background-image: url("../images/grunge_wall/grunge_wallpng") no-repeat bottom center;
 }
 
 .intro,
@@ -47,7 +47,7 @@ a {
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #1d9b6c
+    color: #955251;
 }
 
 .light {
@@ -135,7 +135,7 @@ a:hover {
     text-align: center;
     color: #fff;
     font-weight:bold;
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../img/chicagoSkyline.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("../images/chicagoSkyline.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -235,16 +235,13 @@ a:hover {
     }
 }
 
-.content-section {
-    padding-top: 100px
-}
+
 
 .portfolio-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
     background-color: lightgray; 
-    /*  url(../img/downloads-bg.jpg) center center no-repeat #000;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -261,17 +258,17 @@ a:hover {
 }
 
 .btn-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
-    background-color: transparent
+    border: 1px solid #955251;
+    color: #955251;
+    background-color: transparent;
 }
 
 .btn-default:focus,
 .btn-default:hover {
-    border: 1px solid #42DCA3;
+    border: 1px solid #955251;
     outline: 0;
     color: #000;
-    background-color: #42DCA3
+    background-color: #955251;
 }
 
 ul.banner-social-buttons {
@@ -315,10 +312,10 @@ footer p {
     background: rgba(255, 255, 255, .2)
 }
 
-img::selection {
+image::selection {
     background: 0 0
 }
 
-img::-moz-selection {
+image::-moz-selection {
     background: 0 0
 }
